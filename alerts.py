@@ -1,7 +1,7 @@
 import unittest
 from selenium import webdriver
 
-class CompareProducts(unittest.TestCase):
+class Alerts(unittest.TestCase):
 
     def setUp(self): # aqui se prepara el entorno para la prueba
         self.driver = webdriver.Chrome(executable_path= r'./chromedriver.exe')
